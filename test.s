@@ -88,81 +88,78 @@ update:
     j   update
 
 end_update:
-    li  $a0, 2
-#    sw  $a0, SHOOT
-    jal charged_shot
+    li $a0 2
+    jal shoot
+    
+    li $a0 2 
+    li $a1 6 
+    jal move_dir
 
-    jal loop
+    li $a0 1
+    jal charge_shoot
 
-    lw  $ra, 0($sp)
-    jr  $ra
+    li $a0 1 
+    li $a1 7 
+    jal move_dir
+
+
+    j loop
+
 
 loop: # Once done, enter an infinite loop so that your bot can be graded by QtSpimbot once 10,000,000 cycles have elapsed
     j loop
+charge_shoot:
+	# a0 direction
+	sw $a0 CHARGE_SHOT
 
-wait: # wait(cycles)
-  lw  $t0, TIMER # target
-wait_loop:
-  lw  $t1, TIMER
-  sub $t1, $t1, $t0
-  blt $t1, $a0, wait_loop
-  jr  $ra
+	sub $sp	$sp 8	
+	sw $ra ($sp)
+	sw $a0 4($sp)
+	lw $a0 TIMER
+	li $a1 10000
+	jal wait
+	lw $a0 4($sp)
+	jal shoot
+	lw $ra ($sp)
+	add $sp	$sp 8	
+	
+	jr $ra
 
-charged_shot: # charge(dir)
-  sub $sp, $sp, 4
-  sw  $ra, 0($sp)
+shoot:
+	sw $a0 SHOOT	
+	jr $ra
 
-  sw  $a0, CHARGE_SHOT
+wait:
+	# a0 = curr_time
+	# a1 = wait_time
+	lw $t0 TIMER
+	sub	$t0 $t0 $a0
+	blt	$t0 $a1 wait
+	jr $ra
 
-  li  $a0, 100000
-  jal wait
+move_dir:
+	# a0 = direction
+	# a1 = number of tiles
+	mul $t0 $a0 90
+	add $t0 $t0 -90
+	sw $t0 ANGLE
+	li $t0 1
+	sw $t0 ANGLE_CONTROL
+	
+	li $t0 10
+	sw $t0 VELOCITY
+	
+	sub $sp	$sp 4	
+	sw $ra ($sp)
+	lw $a0 TIMER
+	mul $a1 $a1 8000
+	jal wait
+	lw $ra ($sp)
+	add $sp	$sp 4	
 
-  sw  $a0, SHOOT
-
-  lw  $ra, 0($sp)
-  add $sp, $sp, 4
-  jr  $ra
-
-move_angle: # move_angle(velocity, angle)
-  sub $sp, $sp, 4
-  sw  $ra, 0($sp)
-
-  sw  $a1, ANGLE
-  li  $t1, 1
-  sw  $t1, ANGLE_CONTROL
-  sw  $a0, VELOCITY
-
-  lw  $ra, 0($sp)
-  add $sp, $sp, 4
-  jr  $ra
-
-move_south:
-  sub $sp, $sp, 4
-  sw  $ra, 0($sp)
-
-  li  $a1, 90
-  jal move_angle
-
-  lw  $ra, 0($sp)
-  add $sp, $sp, 4
-  jr  $ra
-
-move_north:
-  sub $sp, $sp, 4
-  sw  $ra, 0($sp)
-
-  li  $a1, 270
-  jal move_angle
-
-  lw  $ra, 0($sp)
-  add $sp, $sp, 4
-  jr  $ra
-
-move_stop:
-  li  $t2, 0
-  sw  $t2, VELOCITY
-  jr  $ra
-
+	li $t0 0
+	sw $t0 VELOCITY
+	jr $ra
 get_puzzle:
   la  $t0, puzzle
   sw  $t0, REQUEST_PUZZLE
