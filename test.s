@@ -99,10 +99,54 @@ end_update:
     jal charge_shoot
 
     li $a0 1 
-    li $a1 7 
+    li $a1 14
     jal move_dir
 
+    li $a0 2
+    jal charge_shoot
 
+    li $a0 2 
+    li $a1 20
+    jal move_dir
+
+    li $a0 3
+    jal charge_shoot
+
+    li $a0 3
+    li $a1 9 
+    jal move_dir
+
+    li $a0 2
+    jal charge_shoot
+
+    li $a0 3
+    li $a1 3
+    jal move_dir
+
+    li $a0 2
+    jal charge_shoot
+
+    li $a0 3
+    li $a1 1
+    jal move_dir
+
+    li $a0 2
+    jal shoot
+
+    li $a0 3
+    li $a1 1
+    jal move_dir
+
+    li $a0 2
+    jal shoot
+
+    li $a0 3
+    li $a1 1
+    jal move_dir
+
+    li $a0 2
+    jal shoot
+    
     j loop
 
 
