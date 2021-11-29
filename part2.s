@@ -186,7 +186,6 @@ end_deterrence:
 
     j loop
 
-
 loop: # Once done, enter an infinite loop so that your bot can be graded by QtSpimbot once 10,000,000 cycles have elapsed
     j loop
 charge_shoot:
@@ -593,4 +592,3 @@ cdr_end:
     lw      $s3, 16($sp)
     add     $sp, $sp, 20
     jr      $ra
-

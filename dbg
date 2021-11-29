@@ -1,0 +1,3245 @@
+map seed: 1638160362
+puzzle seed: 1638160362
+bot 1: respawn interrupt
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    BBBBB#BBBB#
+    BBBBB#BBBB#
+    BB#BB#BBBB#
+    BB#BB#BBBB#
+    BB#########
+    BB#BB#BBBB#
+    BBBBB#BBBB#
+    BB#######B#
+    BBBBB#BBBBB
+    BBBBB#BBBBB
+    BBBBB#BBBBB
+finished creating puzzle 0 :: exit status 0
+bot 1 :: acknowledged RESPAWN :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 0 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 0 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 0 :: 
+bot 0: submitted solution: 1 1 2 2 2 2 3 3
+          actual solution: 1 1 2 2 2 2 3 3
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 1
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    A#AA###
+    A#AAAA#
+    A#AA#AA
+    A#####A
+    AAA###A
+finished creating puzzle 1 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 1 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 1 :: 
+bot 0: submitted solution: 1 1 1 1 2 2 2 2 2
+          actual solution: 1 1 1 1 2 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 2
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    A##AAA
+    ###AA#
+    ###AA#
+    ###AA#
+    AA#AAA
+finished creating puzzle 2 :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 0 :: 
+bot 1: submitted solution: 1 1 2 2 2 2 3 3
+          actual solution: 1 1 2 2 2 2 3 3
+Successfully solved puzzle :: deleting puzzle 0 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 2 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 1 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 2 :: 
+bot 0: submitted solution: 1 1 1 3 3 3 3 3 3
+          actual solution: 1 1 1 3 3 3 3 3 3
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 3
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    B#B##BBB#BB
+    B##B#BBB#BB
+    ######BB#BB
+    B##B#######
+    B##B#BBB#BB
+    B##BBBBB#BB
+    BB#BBBBBBBB
+    BBBBBBBBBBB
+finished creating puzzle 3 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 3 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 1 :: 
+bot 1: submitted solution: 1 1 1 1 2 2 2 2 2
+          actual solution: 1 1 1 1 2 2 2 2 2
+Successfully solved puzzle :: deleting puzzle 1 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: SHOOT :: direction 3 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 2 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 2 :: 
+bot 1: submitted solution: 1 1 1 3 3 3 3 3 3
+          actual solution: 1 1 1 3 3 3 3 3 3
+Successfully solved puzzle :: deleting puzzle 2 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 3 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 3 :: 
+bot 0: submitted solution: 1 1 1 1 1 2 4 5 5 6
+          actual solution: 1 1 1 1 1 2 4 5 5 6
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 4
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    B#BB#B#BB
+    B#BB#B#BB
+    #####B###
+    B#BB#BB#B
+    ##BB#BB#B
+    ##BBBBB#B
+    ##BBB#B#B
+    ##BBBBBBB
+finished creating puzzle 4 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 4 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 3 :: 
+bot 1: submitted solution: 1 1 1 1 1 2 4 5 5 6
+          actual solution: 1 1 1 1 1 2 4 5 5 6
+Successfully solved puzzle :: deleting puzzle 3 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: SHOOT :: direction 2 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 4 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 4 :: 
+bot 0: submitted solution: 1 1 1 1 1 1 2 3 3 3 5 5
+          actual solution: 1 1 1 1 1 1 2 3 3 3 5 5
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 5
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    #BBB#####
+    #########
+    #########
+    #BBBBB#B#
+    #BBBBB#B#
+    #BBBB####
+    #BBBBB#B#
+    BBB######
+finished creating puzzle 5 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 5 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 5 :: 
+bot 0: submitted solution: 1 1 1 1 2 3 3 3 3 3 4 4
+          actual solution: 1 1 1 1 2 3 3 3 3 3 4 4
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 6
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    ########
+    AA#AA#A#
+    AA#AA#A#
+    AA#AA#A#
+    AA#AA#A#
+    AA#AA#A#
+    AA####A#
+    AA#AA#A#
+    AA#AA#A#
+    #######A
+    AA#AAAAA
+finished creating puzzle 6 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 6 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 4 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 2 3 3 3 5 5
+          actual solution: 1 1 1 1 1 1 2 3 3 3 5 5
+Successfully solved puzzle :: deleting puzzle 4 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 5 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 6 :: 
+bot 0: submitted solution: 1 2 2 4 5 5 5 5 6
+          actual solution: 1 2 2 4 5 5 5 5 6
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 7
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    ##AA
+    ###A
+    ####
+    ####
+finished creating puzzle 7 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 7 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 7 :: 
+bot 0: submitted solution: 1 1 2 2 2 3 3 1 1 1 1
+          actual solution: 1 1 2 2 2 3 3 1 1 1 1
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 8
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    B#BB#B
+    #BBB#B
+    ##BB#B
+    ######
+    ##BB##
+finished creating puzzle 8 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 8 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 8 :: 
+bot 0: submitted solution: 1 1 1 3 3 3 4 3 4 4
+          actual solution: 1 1 1 3 3 3 4 3 4 4
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 9
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    BB#BB
+    B##BB
+    B##BB
+    B##B#
+    #####
+    ###B#
+    ##BB#
+    #####
+    B#B#B
+    B#B#B
+    B#B#B
+finished creating puzzle 9 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 9 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 5 :: 
+bot 1: submitted solution: 1 1 1 1 2 3 3 3 3 3 4 4
+          actual solution: 1 1 1 1 2 3 3 3 3 3 4 4
+Successfully solved puzzle :: deleting puzzle 5 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 6 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 9 :: 
+bot 0: submitted solution: 1 3 3 3 4 4 4 4 5 6
+          actual solution: 1 3 3 3 4 4 4 4 5 6
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 10
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    BBB##BBB
+    #BB##BBB
+    #BB##BBB
+    ########
+    #BB##BBB
+    #BB##BBB
+    BBB##BBB
+    BBB##BBB
+    BBBB###B
+    BBBB#BBB
+    BB#B#BBB
+    BBBBBBBB
+finished creating puzzle 10 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 10 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 6 :: 
+bot 1: submitted solution: 1 2 2 4 5 5 5 5 6
+          actual solution: 1 2 2 4 5 5 5 5 6
+Successfully solved puzzle :: deleting puzzle 6 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 7 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 7 :: 
+bot 1: submitted solution: 1 1 2 2 2 3 3 1 1 1 1
+          actual solution: 1 1 2 2 2 3 3 1 1 1 1
+Successfully solved puzzle :: deleting puzzle 7 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 8 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 10 :: 
+bot 0: submitted solution: 1 1 2 3 3 3 3 3 3 3
+          actual solution: 1 1 2 3 3 3 3 3 3 3
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 11
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    A#A#AA####
+    A#A####AAA
+    A###AA#AAA
+    A####A##AA
+finished creating puzzle 11 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 11 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 8 :: 
+bot 1: submitted solution: 1 1 1 3 3 3 4 3 4 4
+          actual solution: 1 1 1 3 3 3 4 3 4 4
+Successfully solved puzzle :: deleting puzzle 8 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 9 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 11 :: 
+bot 0: submitted solution: 2 2 3 4 5 5 5 5 5
+          actual solution: 2 2 3 4 5 5 5 5 5
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 12
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    BB#####B#
+    #BBBBB#B#
+    #########
+    BBBBBB#B#
+finished creating puzzle 12 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 12 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 12 :: 
+bot 0: submitted solution: 2 2 2 2 3 3 4 4
+          actual solution: 2 2 2 2 3 3 4 4
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 13
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    B####B
+    B####B
+    B####B
+    BB###B
+    BB###B
+    BBB#BB
+finished creating puzzle 13 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 13 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 9 :: 
+bot 1: submitted solution: 1 3 3 3 4 4 4 4 5 6
+          actual solution: 1 3 3 3 4 4 4 4 5 6
+Successfully solved puzzle :: deleting puzzle 9 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 10 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 13 :: 
+bot 0: submitted solution: 1 1 2 2 3 3 2 2
+          actual solution: 1 1 2 2 3 3 2 2
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 14
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    B##BBBB#
+    B##BBBB#
+    BB#BBBB#
+    #B#BBBBB
+    ######BB
+    #####BBB
+    #BBBBBBB
+    BBBBBBBB
+    BBBBB##B
+    BBBBBBBB
+finished creating puzzle 14 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 14 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 14 :: 
+bot 0: submitted solution: 1 1 1 1 1 2 2 2 2 2
+          actual solution: 1 1 1 1 1 2 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 15
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    BBBBBB#
+    BB#####
+    BB#####
+    B######
+finished creating puzzle 15 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 15 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 15 :: 
+bot 0: submitted solution: 1 2 2 2 2 2 1 1 1 1
+          actual solution: 1 2 2 2 2 2 1 1 1 1
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 16
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    BBBBBBBBBB
+    ######BBBB
+    ##########
+    BBBBBBBBBB
+    BBBBBBBB#B
+    BBBBBBBB#B
+    BBBBBBB##B
+    BBBBBBB##B
+    B####BB#BB
+finished creating puzzle 16 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 16 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 10 :: 
+bot 1: submitted solution: 1 1 2 3 3 3 3 3 3 3
+          actual solution: 1 1 2 3 3 3 3 3 3 3
+Successfully solved puzzle :: deleting puzzle 10 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 11 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 11 :: 
+bot 1: submitted solution: 2 2 3 4 5 5 5 5 5
+          actual solution: 2 2 3 4 5 5 5 5 5
+Successfully solved puzzle :: deleting puzzle 11 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 12 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 16 :: 
+bot 0: submitted solution: 1 1 1 1 1 2 2 2
+          actual solution: 1 1 1 1 1 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 17
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    BB##B#
+    BB####
+    #B####
+    #B####
+    #B#B##
+    BBBB#B
+finished creating puzzle 17 :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 12 :: 
+bot 1: submitted solution: 2 2 2 2 3 3 4 4
+          actual solution: 2 2 2 2 3 3 4 4
+Successfully solved puzzle :: deleting puzzle 12 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 17 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 13 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 13 :: 
+bot 1: submitted solution: 1 1 2 2 3 3 2 2
+          actual solution: 1 1 2 2 3 3 2 2
+Successfully solved puzzle :: deleting puzzle 13 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 17 :: 
+bot 0: submitted solution: 1 2 3 3 4 4 4 3 3 3 3 3
+          actual solution: 1 2 3 3 4 4 4 3 3 3 3 3
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 18
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    #BBBBBBBB
+    #BBBBBBBB
+    #########
+    #B#BBBBBB
+    #B#B#####
+    #####BBBB
+    #B#BBBBBB
+    #B#BBBBBB
+    #BBBB###B
+finished creating puzzle 18 :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 14 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 18 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 18 :: 
+bot 0: submitted solution: 1 1 1 2 2 4 4 4 4 4
+          actual solution: 1 1 1 2 2 4 4 4 4 4
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 19
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    BBBB####B
+    BBBB###BB
+    B######BB
+    #######BB
+    BBB####BB
+    BBB####BB
+    BBB####BB
+    BBB#B##BB
+    B###B#BBB
+    B######BB
+    BBBBBBBBB
+finished creating puzzle 19 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 19 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 14 :: 
+bot 1: submitted solution: 1 1 1 1 1 2 2 2 2 2
+          actual solution: 1 1 1 1 1 2 2 2 2 2
+Successfully solved puzzle :: deleting puzzle 14 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 15 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 15 :: 
+bot 1: submitted solution: 1 2 2 2 2 2 1 1 1 1
+          actual solution: 1 2 2 2 2 2 1 1 1 1
+Successfully solved puzzle :: deleting puzzle 15 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 16 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 19 :: 
+bot 0: submitted solution: 1 1 1 1 2 2 2 3 3 3 3 3
+          actual solution: 1 1 1 1 2 2 2 3 3 3 3 3
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 20
+bot 0 :: requested puzzle to addr 0x10010004 ::  :: created this puzzle:
+    AA##
+    A###
+    ####
+    A###
+    AA##
+    AA##
+finished creating puzzle 20 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 20 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 20 :: 
+bot 0: submitted solution: 2 2 2 1 1 1 1 2 2
+          actual solution: 2 2 2 1 1 1 1 2 2
+Successfully solved puzzle :: exit status 0
+bot 0 :: GET_AVAILABLE_BULLETS :: 21
+bot 0 :: SHOOT :: direction 2 :: shot bullet :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 16 :: 
+bot 1: submitted solution: 1 1 1 1 1 2 2 2
+          actual solution: 1 1 1 1 1 2 2 2
+Successfully solved puzzle :: deleting puzzle 16 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 17 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 0 :: SHOOT :: direction 1 :: shot charged bullet :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 17 :: 
+bot 1: submitted solution: 1 2 3 3 4 4 4 3 3 3 3 3
+          actual solution: 1 2 3 3 4 4 4 3 3 3 3 3
+Successfully solved puzzle :: deleting puzzle 17 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: SHOOT :: direction 0 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 18 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 0 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 0 :: SHOOT :: direction 2 :: shot charged bullet :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 18 :: 
+bot 1: submitted solution: 1 1 1 2 2 4 4 4 4 4
+          actual solution: 1 1 1 2 2 4 4 4 4 4
+Successfully solved puzzle :: deleting puzzle 18 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 19 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 19 :: 
+bot 1: submitted solution: 1 1 1 1 2 2 2 3 3 3 3 3
+          actual solution: 1 1 1 1 2 2 2 3 3 3 3 3
+Successfully solved puzzle :: deleting puzzle 19 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 :: reusing puzzle 1 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 20 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 0 :: SHOOT :: direction 3 :: shot charged bullet :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 20 :: 
+bot 1: submitted solution: 2 2 2 1 1 1 1 2 2
+          actual solution: 2 2 2 1 1 1 1 2 2
+Successfully solved puzzle :: deleting puzzle 20 :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAA########A
+    #AA#A#AA#AAA
+    AAA#A#AAAAAA
+    AAA#A#AAA#AA
+    AAA#AAAAA#AA
+    AAAAAAAAA#AA
+    A######AA##A
+    AAAAA##AA##A
+    AAAAAAA#A##A
+finished creating puzzle 0 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 0 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 0 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 0 :: SHOOT :: direction 2 :: shot charged bullet :: exit status 0
+bot 0 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 0 :: SHOOT :: direction 2 :: shot charged bullet :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 0 :: SHOOT :: direction 2 :: shot bullet :: exit status 0
+bot 0 :: SHOOT :: direction 2 :: shot bullet :: exit status 0
+bot 0 :: SHOOT :: direction 2 :: shot bullet :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 0 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 1 1 1
+          actual solution: 1 1 1 1 1 1 1 1 1 1 1
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAAA#A
+    AA####A
+    ####A##
+    AAA#A##
+    AAA#A##
+finished creating puzzle 1 :: exit status 0
+bot 1 :: SHOOT :: direction 0 :: too many bullets on the map :: exit status 1
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 1 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 1 :: 
+bot 1: submitted solution: 1 1 1 1 1 2 2 2 2 3 4
+          actual solution: 1 1 1 1 1 2 2 2 2 3 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBB#####BBB
+    ###########
+    #BBBB####BB
+    #BBBBBBB#BB
+finished creating puzzle 2 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 2 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 2 :: 
+bot 1: submitted solution: 2 3 3 4 4 4 4 4 4 5 5 4
+          actual solution: 2 3 3 4 4 4 4 4 4 5 5 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ##AAAAAA
+    #######A
+    ##AAAAAA
+    #A#AAAAA
+    #A#####A
+    ###AAAAA
+    #######A
+    #AAAAAAA
+    AAAAAAAA
+finished creating puzzle 3 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 3 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 0 :: SHOOT :: direction 0 :: shot bullet :: exit status 0
+bot 0 :: SHOOT :: direction 0 :: shot bullet :: exit status 0
+bot 0 :: requested puzzle to addr 0x10010004 :: reusing puzzle 0 :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 0 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 3 :: 
+bot 1: submitted solution: 1 1 1 2 1 1 1 1 2
+          actual solution: 1 1 1 2 1 1 1 1 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #########B
+    BBBB###BBB
+    BBBBBBBBB#
+    BBBBBBBBBB
+    BBBBBBBBBB
+    BBB######B
+    BBBBBBBBB#
+    BBBBBB###B
+    BBB######B
+    BBBBBB##BB
+finished creating puzzle 4 :: exit status 0
+bot 1 :: SHOOT :: direction 0 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 4 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 0 :: 
+bot 0: submitted solution: 0 2 3 1 1 1 1 1 1 1 1
+          actual solution: 1 1 1 1 1 1 1 1 1 1 1
+failed to solve puzzle :( :: deleting puzzle 0 :: exit status 1
+bot 0 :: requested puzzle to addr 0x10010004 :: reusing puzzle 0 :: exit status 0
+bot 0: received REQUEST_PUZZLE interrupt
+bot 0: delivering puzzle 1 to bot at addr 0x10010004
+size of memory written: 328
+bot 0: delivered puzzle successfully!
+bot 0 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 0 :: submitting solution at addr 0x10010194 :: checking solution against puzzle 1 :: 
+bot 0: submitted solution: 0 1 1 1 1 2 2 2 2 3 4
+          actual solution: 1 1 1 1 1 2 2 2 2 3 4
+failed to solve puzzle :( :: deleting puzzle 1 :: exit status 1
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 4 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 2 2 2
+          actual solution: 1 1 1 1 1 1 1 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAA#
+    AA##
+    AA##
+    ####
+    ####
+    A###
+    A##A
+    ###A
+    A#AA
+    A#AA
+    A#AA
+    AAAA
+finished creating puzzle 5 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 5 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 5 :: 
+bot 1: submitted solution: 1 1 1 1 1 2 3 3 3 3 3
+          actual solution: 1 1 1 1 1 2 3 3 3 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBB
+    ###B
+    BBB#
+    #BBB
+    ###B
+    #BBB
+    ##BB
+    ##BB
+    B###
+    BBBB
+finished creating puzzle 6 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 6 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 6 :: 
+bot 1: submitted solution: 1 1 1 1 1 2 3 3
+          actual solution: 1 1 1 1 1 2 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAAAAA##
+    #AAAAAAAA
+    #AAAAAAAA
+    ########A
+    #######AA
+    AA#AAAAAA
+finished creating puzzle 7 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 7 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 7 :: 
+bot 1: submitted solution: 1 1 1 2 2 2 2 2 2
+          actual solution: 1 1 1 2 2 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #####AA#A
+    ###AA#A#A
+    A##AA#A#A
+    A##AA#A#A
+    A##AAAA#A
+    A##AAAA#A
+    AA#AAAA#A
+    AA#AAAAAA
+    AA#AAAAAA
+    AA#AAAAA#
+    AA#####A#
+finished creating puzzle 8 :: exit status 0
+bot 1 :: SHOOT :: direction 3 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 8 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 8 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 2 2 2
+          actual solution: 1 1 1 1 1 1 1 1 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #BB####
+    #BB#B##
+    B#B#B##
+    BBB####
+finished creating puzzle 9 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 9 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 9 :: 
+bot 1: submitted solution: 1 1 1 2 2 2 3 3 3 2
+          actual solution: 1 1 1 2 2 2 3 3 3 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    A#AAAA#A
+    ###AAA#A
+    ###AA###
+    #######A
+finished creating puzzle 10 :: exit status 0
+bot 1 :: SHOOT :: direction 1 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 10 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 10 :: 
+bot 1: submitted solution: 1 2 2 2 2 3 4 5 4 4 4
+          actual solution: 1 2 2 2 2 3 4 5 4 4 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ###B
+    BBBB
+    B###
+    #BB#
+    BBB#
+    BB##
+finished creating puzzle 11 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 11 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 11 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 2 2 2
+          actual solution: 1 1 1 1 1 1 1 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ##A##
+    ##AA#
+    ##AA#
+    ##AAA
+    ##A#A
+    #####
+finished creating puzzle 12 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 12 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 12 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 2 2 1
+          actual solution: 1 1 1 1 1 1 2 2 1
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    B######BBB
+    B#######BB
+    B#BBBBBBBB
+    B#BBBBBB#B
+    B#BBBBBB#B
+    B#B#######
+    B#BBBB#BBB
+    B#BBBB#BBB
+    B#########
+    B##BBBBBBB
+    B##BBB#BBB
+finished creating puzzle 13 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 13 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 13 :: 
+bot 1: submitted solution: 1 2 2 3 3 3 3 3 3 4
+          actual solution: 1 2 2 3 3 3 3 3 3 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BB##BBBB
+    ######B#
+    ########
+    ########
+finished creating puzzle 14 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 14 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 14 :: 
+bot 1: submitted solution: 1 1 1 1 2 2 2 3 3 3 3 2
+          actual solution: 1 1 1 1 2 2 2 3 3 3 3 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    B##B
+    ####
+    B##B
+    B##B
+    ####
+    B##B
+    BB#B
+finished creating puzzle 15 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 15 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 15 :: 
+bot 1: submitted solution: 1 3 4 4 4 4 4 4 5 6
+          actual solution: 1 3 4 4 4 4 4 4 5 6
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBBBB##BB
+    BBBBBB###BB
+    #BBBBB###BB
+    #BBBB#####B
+    #BBBB####BB
+    #BBBB###BBB
+    #B#BB###BBB
+    B#######BBB
+    BBBBBBB#BBB
+finished creating puzzle 16 :: exit status 0
+bot 1 :: SHOOT :: direction 1 :: too many bullets on the map :: exit status 1
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 16 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 16 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 2 2 2 2 2 3
+          actual solution: 1 1 1 1 1 1 2 2 2 2 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #####BB
+    #######
+    ##BBBBB
+    #####BB
+finished creating puzzle 17 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 17 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 17 :: 
+bot 1: submitted solution: 1 1 1 1 2 2 2 2
+          actual solution: 1 1 1 1 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBB#BBBBB
+    BBBB#BBBBB
+    BBB###BBBB
+    B#######BB
+    BB########
+    ###BBBBBBB
+finished creating puzzle 18 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 18 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 18 :: 
+bot 1: submitted solution: 1 1 1 1 2 2 3 3
+          actual solution: 1 1 1 1 2 2 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #B######BBBB
+    ########BBBB
+    #B#BBBB#BBBB
+    #B##BB##B###
+    #B###B####BB
+    BBBB#B##BBBB
+    BBBB#BB#####
+finished creating puzzle 19 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 19 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 19 :: 
+bot 1: submitted solution: 1 1 1 1 1 3 3 2 3 4 5 5
+          actual solution: 1 1 1 1 1 3 3 2 3 4 5 5
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #AAAAAAAAA#
+    ########A##
+    #AA#AA#AA#A
+    ########A##
+    AAA#####A##
+finished creating puzzle 20 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 20 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 20 :: 
+bot 1: submitted solution: 1 1 1 1 1 2 2 3 5
+          actual solution: 1 1 1 1 1 2 2 3 5
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBBBBBBBBB
+    ############
+    #B###BBBB#BB
+    ############
+finished creating puzzle 21 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 21 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 21 :: 
+bot 1: submitted solution: 1 1 2 2 3 3 3 4
+          actual solution: 1 1 2 2 3 3 3 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #####B
+    #####B
+    ######
+    B#B###
+    B#B#BB
+finished creating puzzle 22 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 22 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 22 :: 
+bot 1: submitted solution: 1 2 3 4 4 4 4 5 5 3 4 4
+          actual solution: 1 2 3 4 4 4 4 5 5 3 4 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBBBBBBBBB
+    B#BB#######B
+    B#######BBBB
+    B##########B
+    B#BBBBBBBBBB
+    B###########
+    B#########B#
+    BBBBBBBBBBB#
+    BBBBBBBBBBB#
+finished creating puzzle 23 :: exit status 0
+bot 1 :: SHOOT :: direction 2 :: too many bullets on the map :: exit status 1
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 23 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 23 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 1 1
+          actual solution: 1 1 1 1 1 1 1 1 1 1
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBBBB#BB
+    ##BBBBB#BB
+    ##B#BBB###
+    ##B#BBB#B#
+    #BBBBBB#B#
+    #BBBBBB###
+    #B##BBB#B#
+    BBBBBBBBB#
+    BBBBBBBBB#
+    BBBBB#####
+    BBBBBBBBB#
+finished creating puzzle 24 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 24 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 24 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 2 3
+          actual solution: 1 1 1 1 1 1 1 1 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ###########B
+    BBB#B#BBBBBB
+    BBB#B#BBBBBB
+    BBB###BBBBBB
+    B###B#BBBBBB
+    B####BBBBBBB
+    BBB########B
+    BBBBBBBBBBBB
+    BBBBBBBBBBBB
+    B##########B
+finished creating puzzle 25 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 25 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 25 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 1 1 2 3
+          actual solution: 1 1 1 1 1 1 1 1 1 1 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ##AAA#A
+    #AA#A#A
+    AAA#A#A
+    AAA#A#A
+    #######
+    A######
+    AAA#A##
+finished creating puzzle 26 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 26 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 26 :: 
+bot 1: submitted solution: 1 1 2 2 2 2 3 4 4 4 4
+          actual solution: 1 1 2 2 2 2 3 4 4 4 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBBBBBB
+    BB#B#####
+    BB#BBBB##
+    BB#B#####
+    B########
+    BB#BBBB##
+    BBBBBBB##
+    ###BBBB##
+    BBBBBBB##
+    BBBBBB###
+    BB####BB#
+finished creating puzzle 27 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 27 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 27 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 1 2 2 2
+          actual solution: 1 1 1 1 1 1 1 1 1 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAA#######AA
+    A####A#AA###
+    AAAAAA#AA##A
+    #####AAA###A
+finished creating puzzle 28 :: exit status 0
+bot 1 :: SHOOT :: direction 3 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 28 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 28 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 2 3 3 3
+          actual solution: 1 1 1 1 1 1 1 2 3 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ####
+    ###A
+    #A#A
+    ###A
+finished creating puzzle 29 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 29 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 29 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 2
+          actual solution: 1 1 1 1 1 1 1 1 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    A###AAAA#
+    AAA##AAA#
+    AAA#A####
+    AAA#AAAA#
+    AAA#AAAAA
+    AAA####AA
+    AAA#AA##A
+    AAA#AA#AA
+    AAAAAA#AA
+    AAAAAAAAA
+    AAAAAAAAA
+    AAAAAAAAA
+finished creating puzzle 30 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 30 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 30 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 2
+          actual solution: 1 1 1 1 1 1 1 1 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    B###B
+    BBBBB
+    #BBBB
+    #####
+    ####B
+    #BB#B
+    #####
+    #BBB#
+    #####
+    BBBBB
+finished creating puzzle 31 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 31 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 31 :: 
+bot 1: submitted solution: 1 2 2 2 2 3 4 4 5 5
+          actual solution: 1 2 2 2 2 3 4 4 5 5
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    A#####AAAA
+    AAAA#AAAAA
+    AA######AA
+    AAA##AA#AA
+    AAA##AAA#A
+    AAA#A#####
+    AAAAAAA#AA
+    AAAAAAA#AA
+finished creating puzzle 32 :: exit status 0
+bot 1 :: SHOOT :: direction 0 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 32 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 32 :: 
+bot 1: submitted solution: 1 1 1 1 2 2 3 3 4
+          actual solution: 1 1 1 1 2 2 3 3 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #####B
+    #B#B#B
+    BB####
+    BB####
+    #B###B
+    #B#B#B
+    BB#B#B
+finished creating puzzle 33 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 33 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 33 :: 
+bot 1: submitted solution: 1 1 1 1 2 4 3 4 5 5 5 5
+          actual solution: 1 1 1 1 2 4 3 4 5 5 5 5
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBB#
+    #####
+    #B#B#
+    #B#B#
+    #####
+    B##B#
+    BBBB#
+    #BBB#
+finished creating puzzle 34 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 34 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 34 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 2 2 2 2 3 4
+          actual solution: 1 1 1 1 1 1 2 2 2 2 3 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ####
+    BBBB
+    BBBB
+    ####
+    ###B
+    #BBB
+    ###B
+    #BBB
+    ###B
+finished creating puzzle 35 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 35 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 35 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 1 2
+          actual solution: 1 1 1 1 1 1 1 1 1 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBB#
+    #####
+    #####
+    ##BB#
+    ##B##
+    ##B##
+    ##B##
+    BBBB#
+finished creating puzzle 36 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 36 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 36 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 2 2 2 2 2
+          actual solution: 1 1 1 1 1 1 1 2 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBB#B###BBB
+    BBB#BBB#B#B
+    BBB#####B##
+    BBB#BBB#B##
+    BBB#BBB#B#B
+    BBB#BBB###B
+    BBB#BBB#B#B
+    BBB#BBB#BBB
+    BBB#BBBBBBB
+    BBB#BBBBBBB
+finished creating puzzle 37 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 37 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 37 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 3 4
+          actual solution: 1 1 1 1 1 1 1 1 3 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BB#BBBBB#BB
+    B##BBB#B#BB
+    B##BBB#B#BB
+    ###BBB###BB
+    ###BBB###BB
+    ###BBB###BB
+    B##BBB###BB
+    B##BBB###BB
+    B##BBB###BB
+    B##BBB#BBBB
+    BBBBBBBB##B
+    BBBBBBBBBBB
+finished creating puzzle 38 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 38 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 38 :: 
+bot 1: submitted solution: 1 1 1 1 1 2 2 2 2 2
+          actual solution: 1 1 1 1 1 2 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #BBBBBBBBBBB
+    ##########B#
+    #B#BBB#BB#B#
+    #B#BBB#BBBBB
+finished creating puzzle 39 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 39 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 39 :: 
+bot 1: submitted solution: 1 2 2 2 3 3 3 3 3 3
+          actual solution: 1 2 2 2 3 3 3 3 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ######AA##A
+    AAA########
+    AAA#AAA###A
+    AAAAAAA###A
+    ##AAAAA#A##
+finished creating puzzle 40 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 40 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 40 :: 
+bot 1: submitted solution: 1 1 1 1 3 3 4 4 5 5 5
+          actual solution: 1 1 1 1 3 3 4 4 5 5 5
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAA######AAA
+    AA########A#
+    AAAAAAAAAAA#
+    #######AAAAA
+    A#AAAAAA#AAA
+    A#########AA
+    A#########AA
+finished creating puzzle 41 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 41 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 41 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 3 2
+          actual solution: 1 1 1 1 1 1 1 3 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBBBBBB
+    BBBBBB###
+    BBBB#BBBB
+    #######BB
+    BBBBBBBBB
+    BB###BBBB
+    BBBBB#BBB
+    BBBB#####
+    BBB###BBB
+    BBBBBBBBB
+    B###BBBBB
+finished creating puzzle 42 :: exit status 0
+bot 1 :: SHOOT :: direction 0 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 42 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 42 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 1 1
+          actual solution: 1 1 1 1 1 1 1 1 1 1
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ##########B
+    ##BBBBBBBBB
+    #BBBBB###BB
+    ###BBBBBBBB
+    B########BB
+finished creating puzzle 43 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 43 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 43 :: 
+bot 1: submitted solution: 1 2 2 2 2 2 2 2 2 2 2 2
+          actual solution: 1 2 2 2 2 2 2 2 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ##A##
+    A####
+    #####
+    #A###
+finished creating puzzle 44 :: exit status 0
+bot 1 :: SHOOT :: direction 3 :: shot charged bullet :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 44 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 44 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 3 3 3
+          actual solution: 1 1 1 1 1 1 1 1 3 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ##########B
+    BBBBBBBBBBB
+    BBBBBBBBBBB
+    BBB##BBBBBB
+    BBB###BBBBB
+    BBB##BBBBBB
+    BBB##BBBBBB
+    #####BBBBBB
+    BBB#BBBBBB#
+    BBBBBBBBBB#
+    BBBBB#BBBB#
+    BBBBB#BBBB#
+finished creating puzzle 45 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 45 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 45 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1
+          actual solution: 1 1 1 1 1 1 1 1
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ###AA
+    #####
+    ##AA#
+    ##AA#
+finished creating puzzle 46 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 46 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 46 :: 
+bot 1: submitted solution: 1 2 3 3 2 3 3 3 2 2 2
+          actual solution: 1 2 3 3 2 3 3 3 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    B#BB#BBBB
+    B#BB#BBBB
+    B##B#BBB#
+    #########
+    ###B#BBB#
+    ###B#BBB#
+    ###BB###B
+    ###BBB##B
+    B##BBBBBB
+    BB#BBB#BB
+    ###BBBBBB
+    BB#BBBBBB
+finished creating puzzle 47 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 47 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 47 :: 
+bot 1: submitted solution: 1 1 1 1 1 2 3 4 5 5 5 7
+          actual solution: 1 1 1 1 1 2 3 4 5 5 5 7
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBB
+    BBBBB
+    BB#BB
+    B###B
+    #####
+    #BB##
+    #B###
+    BBB#B
+    #####
+    B###B
+finished creating puzzle 48 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 48 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 48 :: 
+bot 1: submitted solution: 1 1 2 2 3 4 6 5 5 5 5 5
+          actual solution: 1 1 2 2 3 4 6 5 5 5 5 5
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    B###B
+    #####
+    B###B
+    ####B
+    B####
+    ####B
+finished creating puzzle 49 :: exit status 0
+bot 1 :: SHOOT :: direction 0 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 49 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 49 :: 
+bot 1: submitted solution: 2 3 3 3 4 4 4 4 5 5 6 6
+          actual solution: 2 3 3 3 4 4 4 4 5 5 6 6
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAAAAAAAAA
+    AAA#AA#AAAA
+    AAA#####A##
+    ###########
+    AAA#AAAAA#A
+finished creating puzzle 50 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 50 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 50 :: 
+bot 1: submitted solution: 1 1 1 1 3 4 4 4 4 4 4
+          actual solution: 1 1 1 1 3 4 4 4 4 4 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    B##BB#
+    B##BB#
+    B#####
+    B####B
+    ######
+    B#####
+finished creating puzzle 51 :: exit status 0
+bot 1 :: SHOOT :: direction 0 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 51 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 51 :: 
+bot 1: submitted solution: 1 1 1 1 3 3 3 4 4 4 4 4
+          actual solution: 1 1 1 1 3 3 3 4 4 4 4 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAAAA#
+    #######
+    ###A##A
+    ####AAA
+    ###AAAA
+finished creating puzzle 52 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 52 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 52 :: 
+bot 1: submitted solution: 1 1 1 1 2 2 2 2 3 2 3
+          actual solution: 1 1 1 1 2 2 2 2 3 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBBB
+    ####BB
+    BB#BB#
+    BB##B#
+    BB##B#
+    BB##BB
+    BB###B
+    BBB##B
+    BBB##B
+    BBB###
+    B####B
+    BBBB##
+finished creating puzzle 53 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 53 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 53 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 2 2 3
+          actual solution: 1 1 1 1 1 1 1 2 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    A####AA
+    AA#AAAA
+    #####AA
+    #A#AAAA
+    #####A#
+    #A#AAA#
+    AA#AAAA
+    #A#AAAA
+finished creating puzzle 54 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 54 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 54 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 3 4 4
+          actual solution: 1 1 1 1 1 1 3 4 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    B###
+    B#BB
+    B###
+    B###
+    ##BB
+    BBBB
+finished creating puzzle 55 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 55 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 55 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 2 3
+          actual solution: 1 1 1 1 1 1 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AA#A
+    ####
+    AA##
+    ####
+finished creating puzzle 56 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 56 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 56 :: 
+bot 1: submitted solution: 1 2 3 3 4 4 4 3 3
+          actual solution: 1 2 3 3 4 4 4 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #BB#B#BBBB
+    #########B
+    ####BBBBBB
+    BBB#B##BBB
+finished creating puzzle 57 :: exit status 0
+bot 1 :: SHOOT :: direction 0 :: too many bullets on the map :: exit status 1
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 57 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 57 :: 
+bot 1: submitted solution: 1 1 1 2 2 4 4 4 4 4
+          actual solution: 1 1 1 2 2 4 4 4 4 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBB
+    BBBBB
+    BBBBB
+    BB#B#
+    BB###
+    BB###
+    BBBB#
+    B####
+    #B###
+    #BBB#
+    #####
+    BBBBB
+finished creating puzzle 58 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 58 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 58 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 2 3
+          actual solution: 1 1 1 1 1 1 1 1 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAAAA
+    AA###A
+    AAAA#A
+    ######
+    A#####
+    ###A#A
+    A####A
+finished creating puzzle 59 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 59 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 59 :: 
+bot 1: submitted solution: 1 1 2 3 3 3 4 4 5
+          actual solution: 1 1 2 3 3 3 4 4 5
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ######AAA#A
+    ##########A
+    ###########
+    AAA#######A
+finished creating puzzle 60 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 60 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 60 :: 
+bot 1: submitted solution: 1 1 1 2 1 2 2 4 4 4 4
+          actual solution: 1 1 1 2 1 2 2 4 4 4 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ##AAAAA#AAA
+    #AAAAAA#AAA
+    #AAAAAA##AA
+    #AAA##AA#AA
+    AAAAA##A#AA
+    AA#########
+finished creating puzzle 61 :: exit status 0
+bot 1 :: SHOOT :: direction 3 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 61 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 61 :: 
+bot 1: submitted solution: 1 1 1 1 2 2 2 2 2
+          actual solution: 1 1 1 1 2 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAAAAA#A#A
+    AAAAAA####A
+    #AAAAA####A
+    ###########
+finished creating puzzle 62 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 62 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 62 :: 
+bot 1: submitted solution: 1 1 1 1 1 2 2 2 2 2 3
+          actual solution: 1 1 1 1 1 2 2 2 2 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBBBBBBBB
+    BBBBBBB#BB#
+    BBBBBBB#BB#
+    BB#BBBB#BBB
+    #####BBBBBB
+    BB#BBBBBBBB
+    BB#BBBBBBBB
+    #########BB
+    BBBBBBBBBBB
+    B#######BBB
+    BBBBBBBBBBB
+    BBB########
+finished creating puzzle 63 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 63 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 63 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 2
+          actual solution: 1 1 1 1 1 1 1 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ##A#
+    AAAA
+    #AA#
+    ####
+    ##A#
+    ####
+    A##A
+    A#AA
+    AA##
+finished creating puzzle 64 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 64 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 64 :: 
+bot 1: submitted solution: 1 1 1 2 2 3 4 4 4 4 4
+          actual solution: 1 1 1 2 2 3 4 4 4 4 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #A#AAA
+    #A#AAA
+    #A##AA
+    AA####
+    #A#AAA
+    #####A
+    ###AAA
+finished creating puzzle 65 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 65 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 65 :: 
+bot 1: submitted solution: 1 1 2 2 2 2 2 2 3
+          actual solution: 1 1 2 2 2 2 2 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    A##AAAAAAAAA
+    AAAAAAAAAAAA
+    A##AAAAAAAAA
+    AAAAAAAAAAAA
+    A#########AA
+    AAA######AAA
+    AAAA#AAAAAAA
+    AAAA##AAAAAA
+    ######AAAAAA
+    ############
+finished creating puzzle 66 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 66 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 66 :: 
+bot 1: submitted solution: 1 1 1 1 1 2 2 2 1
+          actual solution: 1 1 1 1 1 2 2 2 1
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBB##B
+    #BBBB#B
+    #BBB#BB
+    #BBBBBB
+    #BBB#BB
+    #BBB#BB
+    ##B####
+    ##BBBBB
+    B#BBBBB
+    BBBBBBB
+    BBBBBBB
+finished creating puzzle 67 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 67 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 67 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1
+          actual solution: 1 1 1 1 1 1 1 1
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #B#BBBB
+    #####BB
+    #####BB
+    #######
+    B####BB
+    B#####B
+    B####B#
+    BB#B#BB
+finished creating puzzle 68 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 68 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 68 :: 
+bot 1: submitted solution: 1 1 1 1 4 4 4 5 5 6
+          actual solution: 1 1 1 1 4 4 4 5 5 6
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBB##BBB#BB
+    BBBBBBBB#BB
+    BBBBBBBBBBB
+    BBBBBBBBB#B
+    BBBBBBB###B
+    ##########B
+    BBBB#######
+    BB#BBBBBB#B
+    BBB##BBBBBB
+    BB#######BB
+finished creating puzzle 69 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 69 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 69 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 2 2 2
+          actual solution: 1 1 1 1 1 1 1 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BB######
+    #B######
+    #B#BB#BB
+    #B#BBBBB
+    BBBBBBBB
+finished creating puzzle 70 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 70 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 70 :: 
+bot 1: submitted solution: 1 1 2 2 3 3 1 1
+          actual solution: 1 1 2 2 3 3 1 1
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #B#BBBBB##B
+    #B####BBBBB
+    B###B######
+    B####BBBBBB
+finished creating puzzle 71 :: exit status 0
+bot 1 :: SHOOT :: direction 3 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 71 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 71 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 2 4 5
+          actual solution: 1 1 1 1 1 1 1 2 4 5
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAA#A###
+    AAAA#A###
+    AAAA#####
+    AAAA#AA##
+    #########
+finished creating puzzle 72 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 72 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 72 :: 
+bot 1: submitted solution: 1 2 3 3 3 3 3 3 3 2 3
+          actual solution: 1 2 3 3 3 3 3 3 3 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAAA#AAAAA
+    AA########A
+    AAA####AAA#
+    A###AA#AAAA
+    AAAAAA#AAAA
+    AAAAAA##AAA
+    AAAAAA#AAAA
+    AAAAAAAA###
+    AAAAAAAAAAA
+    A#AAAAAAAAA
+finished creating puzzle 73 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 73 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 73 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 2 2 2
+          actual solution: 1 1 1 1 1 1 1 1 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAAA####AAA
+    AAA########A
+    AAAAAAA#AAAA
+    AAAAAA##AAAA
+    ##AAAA###AAA
+    ##AAAA###AAA
+    A#AAAAA#AAAA
+    AAAAAAA#AAAA
+    AA#####AAAAA
+    AAAAAAAAAAAA
+    AAAAAAAAAAAA
+finished creating puzzle 74 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 74 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 74 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 1
+          actual solution: 1 1 1 1 1 1 1 1 1
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ##BBBBB#
+    ##BBBBB#
+    ###BBBB#
+    B######B
+finished creating puzzle 75 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 75 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 75 :: 
+bot 1: submitted solution: 1 2 2 4 4 4 4 3
+          actual solution: 1 2 2 4 4 4 4 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AA#A#A
+    AA#A#A
+    A#####
+    AA####
+    AA##AA
+    AA##AA
+    #####A
+    #A#A##
+    #A#AA#
+    #AAAA#
+finished creating puzzle 76 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 76 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 76 :: 
+bot 1: submitted solution: 1 2 2 2 3 3 4 4 4 5 5
+          actual solution: 1 2 2 2 3 3 4 4 4 5 5
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBB##
+    B#####
+    BB#B##
+    BBBB##
+    BBBB##
+    BBBB##
+    BBBB##
+    BBB###
+    B###B#
+    ###BB#
+finished creating puzzle 77 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 77 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 77 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 2 2 2 2
+          actual solution: 1 1 1 1 1 1 1 1 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #BBB
+    ###B
+    #B#B
+    BB#B
+    BB#B
+    ###B
+    ####
+finished creating puzzle 78 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 78 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 78 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 2 2
+          actual solution: 1 1 1 1 1 1 1 1 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBB#
+    ####
+    BBB#
+    B#B#
+    ##B#
+    B#B#
+    B#B#
+    B###
+    BBB#
+    ##BB
+finished creating puzzle 79 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 79 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 79 :: 
+bot 1: submitted solution: 1 2 2 2 2 3 3 3
+          actual solution: 1 2 2 2 2 3 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AA#AA
+    AA#AA
+    AA##A
+    AA##A
+    A####
+    AA#AA
+    AA#AA
+    AA#AA
+    ####A
+    AA##A
+    AA###
+    ###AA
+finished creating puzzle 80 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 80 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 80 :: 
+bot 1: submitted solution: 1 1 1 4 5 5 5 5 5
+          actual solution: 1 1 1 4 5 5 5 5 5
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #AAAAA
+    #AA#AA
+    ##A#AA
+    ####AA
+    #A##AA
+    #AA#AA
+    ##A#A#
+    A###A#
+    AAA#A#
+    ##AAA#
+finished creating puzzle 81 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 81 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 81 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 2 2 2
+          actual solution: 1 1 1 1 1 1 1 1 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAAAA##AA
+    A##AAA##AA
+    AA#AA####A
+    A##AAA#AAA
+    AAAAAA#AAA
+    A######AAA
+    A##AAA#AAA
+finished creating puzzle 82 :: exit status 0
+bot 1 :: SHOOT :: direction 3 :: too many bullets on the map :: exit status 1
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 82 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 82 :: 
+bot 1: submitted solution: 1 1 1 1 2 2 2 2 3
+          actual solution: 1 1 1 1 2 2 2 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    B##B
+    ###B
+    ####
+    ###B
+finished creating puzzle 83 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 83 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 83 :: 
+bot 1: submitted solution: 1 1 2 2 2 2 2 3 3 3 3 3
+          actual solution: 1 1 2 2 2 2 2 3 3 3 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BB#BBBBBBB#B
+    BB#BBBBBB###
+    BB#BBBBBBB##
+    BB#B########
+    #B#BBBB#####
+    #B#BBBBBBBB#
+    #BB#BBBBBBBB
+finished creating puzzle 84 :: exit status 0
+bot 1 :: SHOOT :: direction 0 :: too many bullets on the map :: exit status 1
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 84 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 84 :: 
+bot 1: submitted solution: 1 1 2 2 2 2 2 2 2 3
+          actual solution: 1 1 2 2 2 2 2 2 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ####AA##
+    AAAAAA##
+    AA#AAA##
+    AA#AAA##
+    ########
+    AA#AAA##
+    AA#AAA#A
+    #A#AAA#A
+    #A#AAA#A
+    ##AAAA#A
+    ##AAAA#A
+    AAAAAA#A
+finished creating puzzle 85 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 85 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 85 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 3 3 4
+          actual solution: 1 1 1 1 1 1 1 1 3 3 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ########A
+    #A#######
+    #AAAAA##A
+    #AAAA###A
+    #AAAA###A
+    A##AAAAAA
+finished creating puzzle 86 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 86 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 86 :: 
+bot 1: submitted solution: 1 1 2 2 2 2 2 2 3 3 3
+          actual solution: 1 1 2 2 2 2 2 2 3 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBBBBB#BB#
+    BBBBBBB#BBB#
+    BBB#BBB#BB##
+    BBB#BBB#BB##
+    ########BB##
+    B######BBB##
+    BBB#BBBBBB##
+    BBB#BBBBBBBB
+    BBBBBBBBBBBB
+finished creating puzzle 87 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 87 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 87 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 2 2 2
+          actual solution: 1 1 1 1 1 1 1 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    B###B
+    B#B#B
+    ####B
+    B#B#B
+    ####B
+    B####
+    B###B
+    B#B##
+finished creating puzzle 88 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 88 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 88 :: 
+bot 1: submitted solution: 1 1 2 2 3 4 4 5 6 6 8 8
+          actual solution: 1 1 2 2 3 4 4 5 6 6 8 8
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    A#A#
+    ##A#
+    ##A#
+    ##A#
+    ##A#
+    ##A#
+    #AA#
+    #AA#
+    ###A
+finished creating puzzle 89 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 89 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 89 :: 
+bot 1: submitted solution: 1 1 2 2 2 2 2 2 3
+          actual solution: 1 1 2 2 2 2 2 2 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ##AAAA
+    A#A##A
+    A#AA#A
+    A####A
+    ######
+finished creating puzzle 90 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 90 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 90 :: 
+bot 1: submitted solution: 1 1 1 1 1 2 2 2 2
+          actual solution: 1 1 1 1 1 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBB###BBBBB
+    BBB###BBB###
+    BB#BBBBBB#BB
+    BB#BBBBBB#BB
+    BB#BBBBBB#BB
+    BB#BBBBBB#BB
+    BB#BBBBBB#BB
+    BB#BBBBBB#BB
+    BBBBBBBBB#BB
+    BBBB#####BBB
+finished creating puzzle 91 :: exit status 0
+bot 1 :: SHOOT :: direction 0 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 91 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 91 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 2 2
+          actual solution: 1 1 1 1 1 1 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    A##A
+    ####
+    ###A
+    ###A
+    ###A
+finished creating puzzle 92 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 92 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 92 :: 
+bot 1: submitted solution: 1 2 2 2 2 2 2 2 2 3 3
+          actual solution: 1 2 2 2 2 2 2 2 2 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBB###B
+    #######B
+    BBBB###B
+    BBBB###B
+    BBBB###B
+    #BBB###B
+    BBBB#B#B
+    BBBB#B#B
+    BBBB###B
+    BBBB####
+    BB######
+finished creating puzzle 93 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 93 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 93 :: 
+bot 1: submitted solution: 1 1 1 1 1 3 3 3 4 4
+          actual solution: 1 1 1 1 1 3 3 3 4 4
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAAAA#
+    A#####A
+    A######
+    A##AA##
+    ####AA#
+    AAAAAA#
+    #####A#
+    AAAAAA#
+    AAAAAA#
+    #####AA
+    AAAAAAA
+    AAAAAAA
+finished creating puzzle 94 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 94 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 94 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 1 3 3
+          actual solution: 1 1 1 1 1 1 1 1 1 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    ###AAA
+    ####A#
+    A###A#
+    A#####
+    ####AA
+finished creating puzzle 95 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 95 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 95 :: 
+bot 1: submitted solution: 1 1 1 1 3 3 3 3 3 3 3
+          actual solution: 1 1 1 1 3 3 3 3 3 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #####
+    BBBBB
+    BBB#B
+    BBBBB
+    BBBBB
+    B###B
+    BBBBB
+    B#BBB
+    B#BBB
+    ####B
+    BBB#B
+    BB###
+finished creating puzzle 96 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 96 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 96 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 2 2
+          actual solution: 1 1 1 1 1 1 1 1 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #B#####
+    #BBBBBB
+    #B####B
+    ######B
+finished creating puzzle 97 :: exit status 0
+bot 1 :: SHOOT :: direction 1 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 97 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 97 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 1 1
+          actual solution: 1 1 1 1 1 1 1 1 1 1
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    B####BBBB#B
+    BBB#BBBBB#B
+    B#B#BBBBB#B
+    B#BB##BBB#B
+    B#####BBB#B
+    BBBBBBBBB#B
+finished creating puzzle 98 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 98 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 98 :: 
+bot 1: submitted solution: 2 2 2 2 2 2 2 2
+          actual solution: 2 2 2 2 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAAAAAAAAAA
+    AAAAAAAAAAA#
+    A#A#####AAAA
+    A#A#########
+    A#AAAAAAAAAA
+    A#AA#AAAAAAA
+    ######AAAAAA
+    AA#A#AAAAAAA
+    AA##########
+finished creating puzzle 99 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 99 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 99 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 1 3
+          actual solution: 1 1 1 1 1 1 1 1 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBB#BBBB
+    B#BBB#B#BB
+    B##BB#B#BB
+    BB#BB#BBBB
+    BB#BB#BBBB
+    BB#BB#####
+    BB#B##BBBB
+    BB#B##BBBB
+    BB#####BBB
+    BBBB#BBBBB
+finished creating puzzle 100 :: exit status 0
+bot 1 :: SHOOT :: direction 2 :: shot charged bullet :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 100 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 100 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 3 3
+          actual solution: 1 1 1 1 1 1 3 3
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    BBBBBBB#BBB
+    B##BBBB#BBB
+    #########BB
+    ###B##B#BBB
+    #B#BB#B#BBB
+    #########BB
+    #########BB
+    #B#B#######
+    #B#BB#BBBBB
+    #BBBBBBBBBB
+finished creating puzzle 101 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 101 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1: Bonked on a obstacle while trying to move 3.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 1.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 0.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1: Bonked on a obstacle while trying to move 2.
+bot 1: bonk interrupt
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 101 :: 
+bot 1: submitted solution: 1 1 1 1 2 2 4 5 5 5 5 6
+          actual solution: 1 1 1 1 2 2 4 5 5 5 5 6
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    AAAAAAA
+    ######A
+    #######
+    ###AAA#
+    AAAAAA#
+finished creating puzzle 102 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 102 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 102 :: 
+bot 1: submitted solution: 1 1 1 1 1 1 1 2 2 2 2
+          actual solution: 1 1 1 1 1 1 1 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    A#####
+    AAA##A
+    AAA#AA
+    A#####
+finished creating puzzle 103 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 103 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+bot 1 :: submitting solution at addr 0x1001069c :: checking solution against puzzle 103 :: 
+bot 1: submitted solution: 1 1 1 1 2 2 2 2 2
+          actual solution: 1 1 1 1 2 2 2 2 2
+Successfully solved puzzle :: exit status 0
+bot 1 :: requested puzzle to addr 0x100106d4 ::  :: created this puzzle:
+    #BBBBBBBB
+    #B#BBBBBB
+    #B#BBBBBB
+    #B#B#BBBB
+    #B#B#B##B
+    #B#B#BBB#
+    #BBB#BBB#
+    #BBB#BBB#
+    ######BB#
+    ###B###BB
+finished creating puzzle 104 :: exit status 0
+bot 1 :: CHARGE_SHOT :: initiated charged shot :: exit status 0
+bot 1: received REQUEST_PUZZLE interrupt
+bot 1: delivering puzzle 104 to bot at addr 0x100106d4
+size of memory written: 328
+bot 1: delivered puzzle successfully!
+bot 1 :: acknowledged REQUEST_PUZZLE :: exit status 0
+
+cycles: 10000000
+Scores: 16796 126
+Final tournament score: 
+bot 0 score: 16796
+bot 1 score: 126
+========================================
+Test: Kill the opponent at least once or win
+Points: 100/100
+
+Total Grade: 100/100
+winner: test.s
