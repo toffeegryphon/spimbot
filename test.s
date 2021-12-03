@@ -170,19 +170,35 @@ end_update:
     jal shoot
 
     jal get_puzzle
-    li $s0 1
+    li  $s0 0
+
 deterrence:
     lw  $t0, puzzle_received
+    beq $t0, $0, deterrence
     jal solve_puzzle
-    lw  $t0, GET_AVAILABLE_BULLETS
-    bgt $t0, $s0, end_deterrence
 
     jal get_puzzle
+
+    beq $s0, $0, shoot_right
+    li  $a0 0
+    jal shoot
+    li  $s0, 1
+    j   end_det_shoot
+shoot_right:
+    li  $a0, 1
+    jal shoot
+    li  $s0, 0
+end_det_shoot:
+    sub $s0, $s0, 1
     j   deterrence
 
 end_deterrence:
     li $a0 0
-    jal shoot
+    li $a1 1
+    jal move_dir
+
+#    li $a0 0
+#    jal shoot
 
     j loop
 
