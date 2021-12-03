@@ -45,6 +45,7 @@ puzzle:           .byte   0:400
 solution:         .word   0     counts
 counts:           .space  48
 #### Puzzle
+respawn_received: .word   0
 
 # If you want, you can use the following to detect if a bonk has happened.
 has_bonked: .byte 0
@@ -181,12 +182,12 @@ deterrence:
 
     beq $s0, $0, shoot_right
     li  $a0 0
-    jal shoot
+#    jal shoot
     li  $s0, 1
     j   end_det_shoot
 shoot_right:
     li  $a0, 1
-    jal shoot
+#    jal shoot
     li  $s0, 0
 end_det_shoot:
     sub $s0, $s0, 1
@@ -358,7 +359,10 @@ request_puzzle_interrupt:
 
 respawn_interrupt:
     sw      $0, RESPAWN_ACK
-    #Fill in your respawn handler code here
+
+    li      $t0, 1
+    sw      $t0, respawn_received
+
     j       interrupt_dispatch
 
 non_intrpt:                         # was some non-interrupt
@@ -390,11 +394,17 @@ done:
 .set noat
     move    $at, $k1        # Restore $at
 .set at
+
+    lw      $t0, respawn_received
+    bne     $t0, $0, respawn
     eret
 
 
 # Below are the provided puzzle functionality.
 .text
+respawn:
+    sw      $0, respawn_received
+    j       main
 
 .globl draw_line
 draw_line:
