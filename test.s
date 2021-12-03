@@ -188,12 +188,12 @@ p1_deterrence:
 
     beq $s0, $0, p1_shoot_right
     li  $a0 0
-#    jal shoot
+    jal shoot
     li  $s0, 1
     j   p1_end_det_shoot
 p1_shoot_right:
     li  $a0, 1
-#    jal shoot
+    jal shoot
     li  $s0, 0
 p1_end_det_shoot:
     sub $s0, $s0, 1
@@ -304,12 +304,12 @@ p2_deterrence:
 
     beq $s0, $0, p2_shoot_right
     li  $a0 2
-#    jal shoot
+    jal shoot
     li  $s0, 1
     j   p2_end_det_shoot
 p2_shoot_right:
     li  $a0, 3
-#    jal shoot
+    jal shoot
     li  $s0, 0
 p2_end_det_shoot:
     sub $s0, $s0, 1
