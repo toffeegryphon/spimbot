@@ -158,7 +158,7 @@ player_1:
     li $a1 16
     jal move_dir
 
-    li $a0 4
+    li $a0 0
     li $a1 4
     jal move_dir
 
@@ -211,85 +211,85 @@ p1_end_deterrence:
 
 # PLAYER 2 =======================================================
 player_2:
-    li $a0 2
+    li $a0 0
     jal shoot
     
-    li $a0 2 
+    li $a0 0 
     li $a1 6 
     jal move_dir
 
-    li $a0 1
+    li $a0 3
     jal charge_shoot
 
-    li $a0 1 
+    li $a0 3 
     li $a1 14
     jal move_dir
 
-    li $a0 2
+    li $a0 0
     jal charge_shoot
 
-    li $a0 2 
+    li $a0 0 
     li $a1 20
     jal move_dir
 
-    li $a0 3
+    li $a0 1
     jal charge_shoot
 
-    li $a0 3
+    li $a0 1
     li $a1 9 
     jal move_dir
 
-    li $a0 2
+    li $a0 0
     jal charge_shoot
 
-    li $a0 3
+    li $a0 1
     li $a1 3
     jal move_dir
 
-    li $a0 2
+    li $a0 0
     jal charge_shoot
 
-    li $a0 3
+    li $a0 1
     li $a1 1
     jal move_dir
 
-    li $a0 2
-    jal shoot
-
-    li $a0 3
-    li $a1 1
-    jal move_dir
-
-    li $a0 2
-    jal shoot
-
-    li $a0 3
-    li $a1 1
-    jal move_dir
-
-    li $a0 2
+    li $a0 0
     jal shoot
 
     li $a0 1
+    li $a1 1
+    jal move_dir
+
+    li $a0 0
+    jal shoot
+
+    li $a0 1
+    li $a1 1
+    jal move_dir
+
+    li $a0 0
+    jal shoot
+
+    li $a0 3
     li $a1 16
     jal move_dir
 
-    li $a0 4
+    li $a0 2
     li $a1 4
     jal move_dir
 
-    li $a0 1
+    li $a0 3
     li $a1 1
     jal move_dir
 
-    li $a0 0
+    li $a0 2
     jal shoot
 
-    li $a0 1
+    li $a0 3
     li $a1 1
     jal move_dir
 
-    li $a0 0
+    li $a0 2
     jal shoot
 
     jal get_puzzle
@@ -303,12 +303,12 @@ p2_deterrence:
     jal get_puzzle
 
     beq $s0, $0, p2_shoot_right
-    li  $a0 0
+    li  $a0 2
 #    jal shoot
     li  $s0, 1
     j   p2_end_det_shoot
 p2_shoot_right:
-    li  $a0, 1
+    li  $a0, 3
 #    jal shoot
     li  $s0, 0
 p2_end_det_shoot:
