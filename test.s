@@ -89,6 +89,9 @@ update:
     j   update
 
 end_update:
+    lw  $t0 BOT_X
+
+player_1:
     li $a0 2
     jal shoot
     
@@ -173,27 +176,27 @@ end_update:
     jal get_puzzle
     li  $s0 0
 
-deterrence:
+p1_deterrence:
     lw  $t0, puzzle_received
-    beq $t0, $0, deterrence
+    beq $t0, $0, p1_deterrence
     jal solve_puzzle
 
     jal get_puzzle
 
-    beq $s0, $0, shoot_right
+    beq $s0, $0, p1_shoot_right
     li  $a0 0
 #    jal shoot
     li  $s0, 1
-    j   end_det_shoot
-shoot_right:
+    j   p1_end_det_shoot
+p1_shoot_right:
     li  $a0, 1
 #    jal shoot
     li  $s0, 0
-end_det_shoot:
+p1_end_det_shoot:
     sub $s0, $s0, 1
-    j   deterrence
+    j   p1_deterrence
 
-end_deterrence:
+p1_end_deterrence:
     li $a0 0
     li $a1 1
     jal move_dir
