@@ -11,6 +11,8 @@ ANGLE_CONTROL           = 0xffff0018
 BOT_X                   = 0xffff0020
 BOT_Y                   = 0xffff0024
 
+OTHER_X                 = 0xffff00a0
+
 TIMER                   = 0xffff001c
 GET_MAP                 = 0xffff2008
 
@@ -73,6 +75,8 @@ main:
     sw $t2, VELOCITY
         
     # YOUR CODE GOES HERE!!!!!!
+start:
+    lw  $t0, OTHER_X
     li  $s0, 10
     jal get_puzzle
     
@@ -182,7 +186,12 @@ player_1:
 p1_deterrence:
     lw  $t0, puzzle_received
     beq $t0, $0, p1_deterrence
+
     jal solve_puzzle
+
+    lw  $t0, BOT_X
+    li  $t1, 28
+    beq $t0, $t1, start
 
     jal get_puzzle
 
@@ -299,6 +308,10 @@ p2_deterrence:
     lw  $t0, puzzle_received
     beq $t0, $0, p2_deterrence
     jal solve_puzzle
+
+    lw  $t0, BOT_X
+    li  $t1, 256
+    bgt $t0, $t1, start
 
     jal get_puzzle
 
