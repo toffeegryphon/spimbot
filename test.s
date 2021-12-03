@@ -90,7 +90,10 @@ update:
 
 end_update:
     lw  $t0 BOT_X
+    li  $t1, 28
+    bne $t0, $t1, player_2
 
+# PLAYER 1 =======================================================
 player_1:
     li $a0 2
     jal shoot
@@ -205,6 +208,123 @@ p1_end_deterrence:
 #    jal shoot
 
     j loop
+
+# PLAYER 2 =======================================================
+player_2:
+    li $a0 2
+    jal shoot
+    
+    li $a0 2 
+    li $a1 6 
+    jal move_dir
+
+    li $a0 1
+    jal charge_shoot
+
+    li $a0 1 
+    li $a1 14
+    jal move_dir
+
+    li $a0 2
+    jal charge_shoot
+
+    li $a0 2 
+    li $a1 20
+    jal move_dir
+
+    li $a0 3
+    jal charge_shoot
+
+    li $a0 3
+    li $a1 9 
+    jal move_dir
+
+    li $a0 2
+    jal charge_shoot
+
+    li $a0 3
+    li $a1 3
+    jal move_dir
+
+    li $a0 2
+    jal charge_shoot
+
+    li $a0 3
+    li $a1 1
+    jal move_dir
+
+    li $a0 2
+    jal shoot
+
+    li $a0 3
+    li $a1 1
+    jal move_dir
+
+    li $a0 2
+    jal shoot
+
+    li $a0 3
+    li $a1 1
+    jal move_dir
+
+    li $a0 2
+    jal shoot
+
+    li $a0 1
+    li $a1 16
+    jal move_dir
+
+    li $a0 4
+    li $a1 4
+    jal move_dir
+
+    li $a0 1
+    li $a1 1
+    jal move_dir
+
+    li $a0 0
+    jal shoot
+
+    li $a0 1
+    li $a1 1
+    jal move_dir
+
+    li $a0 0
+    jal shoot
+
+    jal get_puzzle
+    li  $s0 0
+
+p2_deterrence:
+    lw  $t0, puzzle_received
+    beq $t0, $0, p2_deterrence
+    jal solve_puzzle
+
+    jal get_puzzle
+
+    beq $s0, $0, p2_shoot_right
+    li  $a0 0
+#    jal shoot
+    li  $s0, 1
+    j   p2_end_det_shoot
+p2_shoot_right:
+    li  $a0, 1
+#    jal shoot
+    li  $s0, 0
+p2_end_det_shoot:
+    sub $s0, $s0, 1
+    j   p2_deterrence
+
+p2_end_deterrence:
+    li $a0 0
+    li $a1 1
+    jal move_dir
+
+#    li $a0 0
+#    jal shoot
+
+    j loop
+
 
 
 loop: # Once done, enter an infinite loop so that your bot can be graded by QtSpimbot once 10,000,000 cycles have elapsed
